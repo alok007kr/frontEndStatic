@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    background: grey;
+}
+.log-section{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    margin: 10rem 20rem;
+    padding: 3rem;
+    border: 2px solid white;
+    background-color: white;
+    border-radius: 10px;
+}
+.log-text h1{
+    text-align: center;
+    background: white;
+}
+.fields{
+    background: white;
+}
+.fields button{
+    margin-left: 90px;
+}
+.input-field{
+    width: 90%;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin-right: 5rem;
+    border: 1px solid black;
+    background: white;
+    /* gap: 20px; */
+}
+.login-btn{
+    margin-top: 18px;
+    /* margin-left: 20px; */
+    padding: 12px 20px;
+    cursor: pointer;
+    border: 1px solid black;
+    color: white;
+    background: black;
+    border-radius: 5px;
+}
+.login-btn:hover{
+    color: black;
+    background: white;
+    border: 1px solid black;
+}
+.pass{
+    margin-top: 25px;
+}

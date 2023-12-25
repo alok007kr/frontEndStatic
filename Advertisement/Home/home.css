@@ -1,0 +1,149 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    /* background: red; */
+}
+header{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.93) 0px 30px 60px -30px;
+    font-family: "monospace", "sans-serif";
+}
+header .nav-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 8px;
+}
+.right-nav ul{
+    margin-top: 10px;
+    margin-right: 2rem;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+}
+.right-nav ul li a{
+    color: black;
+    text-decoration: none;
+}
+.right-nav ul li a:hover {
+    text-decoration: underline;
+    color: rgb(44, 40, 40);
+}
+
+section .hero-section{
+    background-color: grey;
+    display: flex;
+    flex-direction: row;
+
+}
+section .left-hero{
+    margin-left: 2rem;
+    margin-top: 15rem;
+}
+section .left-hero h3{
+    line-height: 25px;
+}
+section .left-hero button{
+    margin-top: 18px;
+    /* margin-left: 20px; */
+    padding: 12px 20px;
+    cursor: pointer;
+    border: 1px solid black;
+    color: white;
+    background: black;
+    border-radius: 5px;
+}
+section .left-hero button:hover{
+    color: black;
+    background: white;
+    border: 1px solid black;
+}
+section .right-hero img{
+    margin-right: 2rem;
+    margin-left: 20rem;
+    height: 575px;
+}
+
+
+
+section h1{
+    margin-top: 2rem;
+    text-align: center;
+    margin-bottom: 4rem;
+}
+section h1 span{
+    color: rgb(82, 80, 80);
+}
+section .service-container{
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    text-align: center;
+}
+section .service-container img{
+    height: 200px;
+    width: 300px;
+    border-radius: 2rem;
+}
+section .service-container h3{
+    text-align: center;
+}
+section .service-container button{
+    margin-top: 18px;
+    /* margin-left: 20px; */
+    padding: 12px 20px;
+    cursor: pointer;
+    border: 1px solid black;
+    color: white;
+    background: black;
+    border-radius: 5px;
+}
+section .service-container button:hover{
+    color: black;
+    background: white;
+    border: 1px solid black;
+}
+
+
+section .reviews{
+    margin-right: 10px;
+    margin-left: 10px;
+}
+section .review-container{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+    text-align: center;
+}
+section .review-sec{
+    border: 2px solid grey;
+    border-radius: 2rem;
+}
+section .review-sec img{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    /* margin-left: 1rem; */
+    border-radius: 100px;
+    height: 150px;
+}
+section .review-sec p{
+    margin-bottom: 10px;
+}
+
+
+
+section .contact{
+    background-color: black;
+    margin-top: 20px;
+}
+section .contact-section{
+    margin-top: 7rem;
+    background: black;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    gap: 80px;
+    align-items: center;
+}

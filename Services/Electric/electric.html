@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hoices || Home Services</title>
+    <link rel="stylesheet" href="./electric.css">
+</head>
+<body>
+    <header>
+        <div class="nav-section">
+            <div class="left-nav">
+                <h1>HOICES</h1>
+            </div>
+            <div class="right-nav">
+                <ul>
+                    <li><a href="home">Home</a></li>
+                    <li><a href="services">Services</a></li>
+                    <li><a href="review">Review</a></li>
+                    <li><a href="contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+
+
+
+    <div class="log-section">
+        <div class="log-text"><h1>
+            Electric Services booking
+        </h1></div>
+        <div class="fields">
+            <!-- <label for="services">Select services</label> -->
+            <br>
+            <select name="services" class="input-field">
+                <option value="choose-service">Choose Services</option>
+                <option value="ac-repair">AC Repair</option>
+                <option value="tv-repair">TV Repair</option>
+                <option value="Fridge-repair">Fridge Repair</option>
+                <option value="Wash-repair">Washing Machine Repair</option>
+            </select>
+            <br>
+            <input class="input-field pass" type="date" placeholder="date">
+            <br>
+            <input class="input-field pass" type="text" placeholder="Address">
+            <br>
+            <select name="services" class="input-field pass">
+                <option value="choose-service">Choose Vendor</option>
+                <option value="ac-repair">John Doe</option>
+                <option value="tv-repair">Jane Dae</option>
+                <option value="Fridge-repair">Alfred S</option>
+                <option value="Wash-repair">Will Smith</option>
+            </select>
+            <br>
+            <input class="input-field pass" type="text" placeholder="Amount" value="$ 750" readonly>
+            <br>
+            <button class="login-btn" onclick="myFunction()">Submit</button>
+        </div>
+    </div>
+    <script>
+        function myFunction(){
+            alert("Booking Successful")
+        }
+    </script>
+</body>
+</html>

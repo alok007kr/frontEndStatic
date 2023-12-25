@@ -1,0 +1,84 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    /* background: red; */
+}
+header{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.93) 0px 30px 60px -30px;
+    font-family: "monospace", "sans-serif";
+}
+header .nav-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 8px;
+}
+.right-nav ul{
+    margin-top: 10px;
+    margin-right: 2rem;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+}
+.right-nav ul li a{
+    color: black;
+    text-decoration: none;
+}
+.right-nav ul li a:hover {
+    text-decoration: underline;
+    color: rgb(44, 40, 40);
+}
+
+
+
+.log-section{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    margin: 4rem 20rem;
+    padding: 3rem;
+    border: 2px solid white;
+    background-color: white;
+    border-radius: 10px;
+}
+.log-text h1{
+    text-align: center;
+    background: white;
+}
+.fields{
+    background: white;
+}
+.fields button{
+    margin-left: 90px;
+}
+.input-field{
+    width: 90%;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin-right: 5rem;
+    border: 1px solid black;
+    background: white;
+    /* gap: 20px; */
+}
+.login-btn{
+    margin-top: 18px;
+    /* margin-left: 20px; */
+    padding: 12px 20px;
+    cursor: pointer;
+    border: 1px solid black;
+    color: white;
+    background: black;
+    border-radius: 5px;
+}
+.login-btn:hover{
+    color: black;
+    background: white;
+    border: 1px solid black;
+}
+.pass{
+    margin-top: 25px;
+}
